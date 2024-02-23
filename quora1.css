@@ -1,0 +1,48 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: #b92b27;
+}
+h1::first-letter{
+    color: green;
+}
+button:hover{
+    background-color: black;
+    color: wheat;
+}
+input[type="text"]{
+    color: #b92b27;
+}
+input[type="text"] + input{
+    color: green;
+}
+nav ul li{
+    color: hotpink;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+main p{
+    color: palevioletred;
+}
+main p:active{
+    font-weight: bolder;
+    color: green;
+}
+p a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #b92b27;
+    background-color: yellow;
+}
+.upvote{
+    background-color: green;
+    color: white;
+}
+.answer{
+    background-color: lightgreen;
+    color: white;
+}
